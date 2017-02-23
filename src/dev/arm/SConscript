@@ -56,6 +56,7 @@ if env['TARGET_ISA'] == 'arm':
     Source('generic_timer.cc')
     Source('gic_pl390.cc')
     Source('gic_v2m.cc')
+    Source('global_timer.cc')
     Source('pl011.cc')
     Source('pl111.cc')
     Source('hdlcd.cc')
